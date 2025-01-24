@@ -1,0 +1,145 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2dfb7;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #86a592;
+    color:#e2dfb7;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Add Task Section Styling */
+#add-task {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+#task-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#task-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color:#e2dfb7;
+    background-color: #86a592;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #72b277;
+}
+
+/* Task List Section Styling */
+#task-list {
+    background-color: #86a592;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+#task-list h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #333;
+    padding-bottom: 10px;
+    font-size:larger;
+    text-align: center; 
+    color: #e2dfb7;
+}
+
+#tasks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tasks li {
+    background-color: #e2dfb7;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Styling for Completed Tasks */
+#tasks li.completed {
+    background-color: #e0ffe0; 
+    color: #4CAF50; 
+}
+
+/* Button Styling */
+#tasks li button {
+    background-color: #ebe36f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#tasks li button:hover {
+    background-color: #d04545;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #86a592;
+    color: rgb(233, 239, 165);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#current-date {
+    font-weight: bold;
+}
